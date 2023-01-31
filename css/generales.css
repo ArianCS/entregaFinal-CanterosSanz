@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.indexMain{
+    margin-top: 43vw;
+}
+
+.video-container{
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(90vw * 0.5625);
+    overflow: hidden;
+}
+
+.video-container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
